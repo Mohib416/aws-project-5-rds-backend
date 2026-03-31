@@ -1,10 +1,16 @@
 # 🚀 AWS Project 5 – RDS Database Integration
 
+---
+
+
 In this project, I extended my previous AWS architecture by adding a database layer using Amazon RDS (MySQL).
 
 The main goal was to understand how backend EC2 instances can communicate securely with a managed database inside the same VPC.
 
 This project was built on top of Project 4 (Load Balancer + Auto Scaling).
+
+---
+
 
 ## 📌 Project Overview
 
