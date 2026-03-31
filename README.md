@@ -1,4 +1,4 @@
-🚀 AWS Project 5 – RDS Database Integration
+# 🚀 AWS Project 5 – RDS Database Integration
 
 In this project, I extended my previous AWS architecture by adding a database layer using Amazon RDS (MySQL).
 
