@@ -20,6 +20,13 @@ I chose RDS because it is simpler, cost-effective, and perfect for learning data
 
 Aurora is more suitable for enterprise workloads that require advanced high availability, better performance, and multiple replicas, which were not necessary for this project.
 
+---
+
+
+## 🖼️ Step 1 – RDS Creation
+
+First, I created a MySQL RDS instance inside AWS.
+
 The database instance was created with the name:
 
 project5-db
@@ -31,13 +38,10 @@ admin username
 secure password
 private access only
 
-## 🖼️ Step 1 – RDS Creation
-
-First, I created a MySQL RDS instance inside AWS.
 
 This was the first time adding a database layer to my architecture.
 
-
+---
 
 
 ## 🔐 Step 2 – Creating Security Group for RDS
@@ -56,7 +60,7 @@ This means that:
 backend EC2 instances can communicate with the database
 internet users cannot access the database directly
 
-
+---
 
 
 ## 🔗 Step 3 – Connecting RDS to EC2 Security Group
@@ -73,8 +77,7 @@ This helped me understand an important AWS concept:
 
 Resources in different VPCs cannot communicate by default
 
-
-
+---
 
 ## 🌐 Step 4 – Creating DB Subnet Group
 
@@ -90,7 +93,7 @@ possible failover in the future
 
 The database must stay in private subnets and not be publicly accessible.
 
-
+---
 
 
 ## 💻 Step 5 – Installing MySQL Client on EC2
@@ -101,7 +104,7 @@ sudo dnf install mariadb105 -y
 
 This allowed the EC2 instance to connect to the database endpoint.
 
-
+---
 
 
 ## 🔌 Step 6 – Successful Connection
@@ -118,7 +121,7 @@ VPC configuration was correct
 Security Groups were working properly
 EC2 could communicate with RDS
 
-
+---
 
 
 ## ✅ Step 7 – Database Working
@@ -127,6 +130,7 @@ Finally, I verified that the database was fully operational.
 
 This confirmed that the full backend architecture was working correctly.
 
+---
 
 ## 🖼️ Project Screenshots
 
@@ -170,7 +174,7 @@ This confirmed that the full backend architecture was working correctly.
 
 ![Database Working Verification](./screenshots/7-database-working.png)
 
-
+---
 
 
 ## 🎯 Key Concepts Learned
@@ -181,6 +185,9 @@ DB subnet groups
 secure private database access
 EC2 to RDS communication
 cloud troubleshooting and debugging
+
+---
+
 ## ✅ Final Result
 
 At the end of this project, I successfully integrated Amazon RDS MySQL with the scalable backend infrastructure built in Project 4.
@@ -202,6 +209,8 @@ Auto Scaling EC2 instances
 Amazon RDS (private DB subnet)
 
 This project helped me better understand real-world backend architectures in AWS.
+
+---
 
 ## 👨‍💻 Author
 
