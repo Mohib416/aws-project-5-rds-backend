@@ -182,11 +182,17 @@ At the end of this project, I successfully integrated Amazon RDS MySQL with the 
 Architecture flow:
 
 Internet
+ 
   ↓
+
 ALB
+
   ↓
+
 Auto Scaling EC2 instances
+
 ↓
+
 Amazon RDS (private DB subnet)
 
 This project helped me better understand real-world backend architectures in AWS.
