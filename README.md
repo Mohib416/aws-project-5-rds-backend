@@ -196,3 +196,8 @@ Auto Scaling EC2 instances
 Amazon RDS (private DB subnet)
 
 This project helped me better understand real-world backend architectures in AWS.
+
+## 👨‍💻 Author
+
+Muhammad Mohib 
+
