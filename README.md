@@ -6,7 +6,7 @@ The main goal was to understand how backend EC2 instances can communicate secure
 
 This project was built on top of Project 4 (Load Balancer + Auto Scaling).
 
-📌 Project Overview
+## 📌 Project Overview
 
 For this project, I decided to use Amazon RDS MySQL instead of Aurora.
 
@@ -24,7 +24,8 @@ MySQL engine
 admin username
 secure password
 private access only
-🖼️ Step 1 – RDS Creation
+
+## 🖼️ Step 1 – RDS Creation
 
 First, I created a MySQL RDS instance inside AWS.
 
@@ -33,7 +34,7 @@ This was the first time adding a database layer to my architecture.
 
 
 
-🔐 Step 2 – Creating Security Group for RDS
+## 🔐 Step 2 – Creating Security Group for RDS
 
 After creating the database, I created a dedicated Security Group for RDS.
 
@@ -52,7 +53,7 @@ internet users cannot access the database directly
 
 
 
-🔗 Step 3 – Connecting RDS to EC2 Security Group
+## 🔗 Step 3 – Connecting RDS to EC2 Security Group
 
 Then I connected the RDS Security Group to the backend EC2 Security Group.
 
@@ -69,7 +70,7 @@ Resources in different VPCs cannot communicate by default
 
 
 
-🌐 Step 4 – Creating DB Subnet Group
+## 🌐 Step 4 – Creating DB Subnet Group
 
 Then I created a DB Subnet Group.
 
@@ -86,7 +87,7 @@ The database must stay in private subnets and not be publicly accessible.
 
 
 
-💻 Step 5 – Installing MySQL Client on EC2
+## 💻 Step 5 – Installing MySQL Client on EC2
 
 After the networking was fixed, I connected to the backend EC2 instance and installed the MySQL / MariaDB client.
 
@@ -97,7 +98,7 @@ This allowed the EC2 instance to connect to the database endpoint.
 
 
 
-🔌 Step 6 – Successful Connection
+## 🔌 Step 6 – Successful Connection
 
 Then I connected from EC2 to the RDS endpoint using:
 
@@ -114,13 +115,12 @@ EC2 could communicate with RDS
 
 
 
-✅ Step 7 – Database Working
+## ✅ Step 7 – Database Working
 
 Finally, I verified that the database was fully operational.
 
 This confirmed that the full backend architecture was working correctly.
 
-🖼️ Screenshots
 
 ## 🖼️ Project Screenshots
 
@@ -166,7 +166,7 @@ This confirmed that the full backend architecture was working correctly.
 
 
 
-🎯 Key Concepts Learned
+## 🎯 Key Concepts Learned
 Amazon RDS setup
 Security Groups between EC2 and RDS
 VPC troubleshooting
@@ -174,7 +174,7 @@ DB subnet groups
 secure private database access
 EC2 to RDS communication
 cloud troubleshooting and debugging
-✅ Final Result
+## ✅ Final Result
 
 At the end of this project, I successfully integrated Amazon RDS MySQL with the scalable backend infrastructure built in Project 4.
 
