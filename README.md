@@ -166,6 +166,7 @@ This confirmed that the full backend architecture was working correctly.
 
 
 
+
 ## 🎯 Key Concepts Learned
 Amazon RDS setup
 Security Groups between EC2 and RDS
