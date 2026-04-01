@@ -133,7 +133,7 @@ This confirmed that the full backend architecture was working correctly.
 ---
 
 ## 📐DIAGRAM
-
+diagram/project-5-architecture-diagram.png
 ---
 
 ## 🖼️ Project Screenshots
