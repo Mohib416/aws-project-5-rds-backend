@@ -132,6 +132,10 @@ This confirmed that the full backend architecture was working correctly.
 
 ---
 
+## 📐DIAGRAM
+
+---
+
 ## 🖼️ Project Screenshots
 
 ### 1. RDS Created
