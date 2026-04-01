@@ -132,8 +132,10 @@ This confirmed that the full backend architecture was working correctly.
 
 ---
 
-## 📐DIAGRAM
-diagram/project-5-architecture-diagram.png
+## 🏗️ Architecture Diagram
+
+![AWS Project 5 Architecture Diagram](./project-5-architecture-diagram.png)
+
 ---
 
 ## 🖼️ Project Screenshots
